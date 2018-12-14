@@ -1,5 +1,5 @@
 def main():
-    def n31(a):# a = initial number
+    def n22(a):# a = initial number
         c = 0
         l = [a]
         while a != 1:
@@ -11,9 +11,9 @@ def main():
             l += [a]
 
         return l , c
-    print(n31(43))
-    print(n31(98)[0][-1])# = a
-    print("It took {0} steps.".format(n31(13)[1]))#optional finish
+    print(n22(34))
+    print(n22(96)[0][-1])# = a
+    print("It took {0} steps.".format(n22(13)[1]))#optional finish
 
 if __name__ == '__main__':
     main()
